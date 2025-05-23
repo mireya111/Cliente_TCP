@@ -1,10 +1,11 @@
 package cliente.test;
 
 import cliente.clase.Cliente;
+import cliente.vista.Ventana;
 
 public class Test {
     public static void main(String[] args) {
-        Cliente c = new Cliente();
-        c.enviarNumeros("172.31.116.110", 5000, 2, 3);
+        Ventana v = new Ventana();
+        v.setVisible(true);
     }
 }
